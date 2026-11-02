@@ -1,11 +1,11 @@
-# embodiedalgo_jd428
+# job_preemption_fairness_distribution_profile
 
 **分析具身智能算法工程师·作业抢占与调度公平性的数值分布并标出离群点。**
 
-`embodiedalgo_jd428` —— 抽取数值做分布分析，用中位数绝对偏差识别具身智能算法工程师·作业抢占与调度公平性上的离群点
+`job_preemption_fairness_distribution_profile` —— 抽取数值做分布分析，用中位数绝对偏差识别具身智能算法工程师·作业抢占与调度公平性上的离群点
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`embodiedalgo_jd428.py` 拷走就能用
+- 单文件，`job_preemption_fairness_distribution_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install lightgirl1-embodiedalgo_jd428
+pip install lightgirl1-job_preemption_fairness_distribution_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-embodiedalgo_jd428 --help
+job_preemption_fairness_distribution_profile --help
 ```
 
-也可以不用安装，直接把 `embodiedalgo_jd428.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `job_preemption_fairness_distribution_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ embodiedalgo_jd428 --help
 ## 用法
 
 ```bash
-python embodiedalgo_jd428.py --file input.txt
-python embodiedalgo_jd428.py --text "示例内容"
-python embodiedalgo_jd428.py --file input.txt --json
+python job_preemption_fairness_distribution_profile.py --file input.txt
+python job_preemption_fairness_distribution_profile.py --text "示例内容"
+python job_preemption_fairness_distribution_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python embodiedalgo_jd428.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_embodiedalgo_jd428.py
+python test_job_preemption_fairness_distribution_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_embodiedalgo_jd428.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/lightgirl1/embodiedalgo_jd428>
+- GitHub 仓库：<https://github.com/lightgirl1/job_preemption_fairness_distribution_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_embodiedalgo_jd428.py
 lightgirl1 做具身智能算法工程师·作业抢占与调度公平性相关的问题，方向对标银河通用的实习具身智能算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://lightgirl1.github.io>
-- 仓库：<https://github.com/lightgirl1/embodiedalgo_jd428>
+- 仓库：<https://github.com/lightgirl1/job_preemption_fairness_distribution_profile>
 
 ## 许可
 

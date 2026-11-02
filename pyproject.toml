@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lightgirl1-embodiedalgo_jd428"
+name = "lightgirl1-job_preemption_fairness_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别具身智能算法工程师·作业抢占与调度公平性上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lightgirl1.github.io"
-Repository = "https://github.com/lightgirl1/embodiedalgo_jd428"
-Issues = "https://github.com/lightgirl1/embodiedalgo_jd428/issues"
+Repository = "https://github.com/lightgirl1/job_preemption_fairness_distribution_profile"
+Issues = "https://github.com/lightgirl1/job_preemption_fairness_distribution_profile/issues"
 
 [project.scripts]
-embodiedalgo_jd428 = "embodiedalgo_jd428:main"
+job_preemption_fairness_distribution_profile = "job_preemption_fairness_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["embodiedalgo_jd428"]
+py-modules = ["job_preemption_fairness_distribution_profile"]
